@@ -1,0 +1,276 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 13%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #971A2D;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* download buttons */
+
+.btn {
+  font-weight: 600;
+}
+
+.download-button {
+  border-width: 0.10rem;
+  margin: 5% 2% 5% 0;
+}
+
+.apple {
+  position: relative;
+  bottom: 2px;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 13% 7%;
+}
+
+#title .col-lg-6 {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.mo {
+  font-size: 75%;
+  color: #8f8f8f;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.card-header {
+  padding: 4%;
+}
+
+.card-body {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.card-footer {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  margin-bottom: 10px;
+}
+
+/* pricing card labrador */
+
+.card-custom {
+  border-color: #ef8172;
+}
+
+.card-header-custom {
+  color: #fff;
+  border-color: #ef8172;
+  background-color: #ef8172;
+}
+
+.btn-custom {
+  background-color: #ef8172;
+  color: #fff;
+  border-color: #ef8172;
+}
+
+.btn-custom:hover {
+  background-color: #ef8172;
+  border-color: #ef8172;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.btn-custom:focus {
+  background-color: #ef8172;
+  border-color: #ef8172;
+  color: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 0 0.25rem rgba(239, 129, 114, .5);
+}
+
+/* pricing card Mastiff */
+
+.mastiff {
+  border-color: #ff4c68;
+}
+
+.card-header-custom.mastiff {
+  background-color: #ff4c68;
+}
+
+.btn-custom.mastiff {
+  background-color: #ff4c68;
+}
+
+.btn-custom.mastiff:hover {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.btn-custom.mastiff:focus {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+  box-shadow: 0 0 0 0.25rem rgba(255, 76, 104, .5);
+}
+
+/* Call to Action section */
+
+
+/* Footer section */
+
+.social-icon {
+  margin: 20px 10px 40px;
+}
+
+/* media query section */
+
+@media (max-width: 991px) {
+  #title .row {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
